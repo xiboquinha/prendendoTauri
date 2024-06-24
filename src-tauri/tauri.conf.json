@@ -55,11 +55,12 @@
     },
     "windows": [
       {
-        "fullscreen": false,
+        "fullscreen": true,
         "height": 600,
         "resizable": true,
         "title": "agoravairsrs",
-        "width": 800
+        "width": 800,
+        "decorations": true
       }
     ]
   }

@@ -1,5 +1,63 @@
 .App {
   text-align: center;
+  background-color: #16181b;
+  color: aliceblue;
+  margin: 20px;
+}
+
+.tittle-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #16181b;
+  color: aliceblue;
+}
+
+.tittle-bar-buttons{
+  background: #16181b;
+  border: none;
+  color: aliceblue;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.tittle-bar-buttons button:hover{
+  color: #61dafb
+}
+
+margin {                       
+  background-color: #16181b; 
+}
+
+.logs {
+  margin-top: 30px;
+  padding: 30px;
+  height: 500;
+  overflow-y: scroll;
+  background-color: #23262b;
+  color: aliceblue;
+}
+
+.footer {
+  background-color: #16181b;
+}
+
+input {
+  background-color: #23262b;
+  color: aliceblue;
+}
+
+button {
+  background-color: #23262b;
+  color: aliceblue;
+}
+
+.log-messages {
+  text-align: left;
+  font-family: monospace;
+  font-size: 14px;
 }
 
 .App-logo {
@@ -26,6 +84,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+canvas {
+  margin-top: 20px;
 }
 
 @keyframes App-logo-spin {
